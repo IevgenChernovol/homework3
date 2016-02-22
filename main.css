@@ -1,0 +1,130 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #D3D3D3;
+}
+.wrapper{
+  width: 80%;
+  height: 1000px;
+  margin-left: 10%;
+  background-color: white;
+}
+.header {
+  width: auto;
+  padding: 60px;
+}
+.firstbotton {
+  display: inline-block;
+  background: grey;
+  cursor: default;
+  width: auto;
+  padding:10px 40px 10px 40px;
+  margin-left: 60px;
+}
+.botton {
+  display: inline-block;
+  background: grey;
+  cursor: default;
+  width: auto;
+  padding:10px 40px 10px 40px;
+  margin-left: -4px;
+}
+a.top {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.firstbotton:hover {
+  background-color: black;
+}
+.botton:hover {
+  background-color: black;
+}
+.sidebar {
+ background: white;
+ width: 30%;
+ float: left; /* Обтекание справа */
+ margin: 40px 60px;
+}
+.category {
+  display: inline-block;
+  cursor: default;
+  width: auto;
+  padding:10px 40px 10px 40px;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+li {
+  list-style-type: none;
+  color: black;
+  border: 0.5px solid grey;
+}
+li:hover {
+background-color: white;
+padding:0px 0px 0px 30px;
+}
+.ulli {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+div.content {
+  float: left;
+  width: 55%;
+  margin: 40px 20px 20px 20px;
+}
+
+.main {
+  margin-left: 50px;
+  text-align:center;
+  border: 1px solid #ccc;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.text{
+  margin-top: 30px;
+  margin-left: 75px;
+  margin-bottom: 30px;
+  text-align:left;
+}
+.firstbottonn {
+  display: inline-block;
+  background: grey;
+  cursor: default;
+  width: auto;
+  padding:10px 40px 10px 40px;
+  margin-left: 60px;
+}
+.bottonn {
+  display: inline-block;
+  background: grey;
+  cursor: default;
+  width: auto;
+  padding:10px 40px 10px 40px;
+  margin-left: -4px;
+}
+a.down {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+a.down:hover {
+  text-decoration: underline;
+}
+.info {
+  display: inline-block;
+  font-size: 20px;
+  background: grey;
+  cursor: default;
+  width: auto;
+  padding:10px 40px 10px 600px;
+  margin-left: -4px;
+}
