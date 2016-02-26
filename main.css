@@ -15,6 +15,7 @@ div.wrapper{
   margin: 0 auto;
   background-color: white;
   padding:0 40px 0 40px;
+  padding-bottom: 50px;
 }
 img{
   padding:40px 0;
@@ -22,13 +23,12 @@ img{
 ul.up{
   font-size:0;
   line-height:0;
-
+  background-color: #4f4e4e;
 }
 li.up{
   display:inline-block;
   background-color: #4f4e4e;
   font-size: 15px;
-  font-family: OpenSans;
   line-height:normal;
   padding: 15px 40px 15px 40px;
 }
@@ -72,7 +72,7 @@ img.velo{
   padding-right: 49px;
 }
 div.footer{
-clear: both;
+ clear: both;
 }
 p.text{
   padding: 30px;
@@ -80,7 +80,7 @@ p.text{
 ul.foo{
   font-size:0;
   line-height:0;
-
+  background-color: #e1e1e1;
 }
 li.foo{
   display:inline-block;
@@ -102,5 +102,4 @@ li.copyright{
   font-size: 14px;
   line-height:normal;
   padding: 15px 40px 15px 125px;
-  margin-bottom: 50px;
 }
