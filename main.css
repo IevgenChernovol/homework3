@@ -1,12 +1,13 @@
-
+*
 {
   margin: 0;
   padding: 0;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
 body {
   background-color: #D3D3D3;
   font-size: 14px;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
 }
 div.wrapper{
   width: 960px;
@@ -84,17 +85,13 @@ ul.foo{
 li.foo{
   display:inline-block;
   background-color: #e1e1e1;
-  font-size: 20px;
+  font-size: 14px;
   line-height:normal;
   padding: 15px 40px 15px 40px;
 }
 a.foo{
   text-decoration: none;
   color: black;
-}
-li.foo:hover{
-  border-left: 1px solid white;
-  border-right: 1px solid white;
 }
 a.foo:hover{
   text-decoration: underline;
